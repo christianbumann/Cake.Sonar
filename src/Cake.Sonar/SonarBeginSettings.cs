@@ -212,7 +212,7 @@ namespace Cake.Sonar
         public string TSLintReportPaths { get; set; }
 
         /// <summary>
-        /// Gets or sets the pull request provider used by sonarcloud. github or vsts.
+        /// Gets or sets the pull request provider used by sonarcloud. github, vsts or bitbucketcloud.
         /// See: https://docs.sonarqube.org/display/SONAR/Pull+Request+Analysis 
         /// </summary>
         [Argument("/d:sonar.pullrequest.provider=")]
